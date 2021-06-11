@@ -1,3 +1,4 @@
+import { ClickHandler } from './components/ClickHandler';
 import Greeting from './components/Greeting';
 import MapList from './components/MapList';
 import Picture from './components/Picture';
@@ -13,6 +14,7 @@ function App() {
         React internal reference.
       </Role>
       <MapList />
+      <ClickHandler />
     </div>
   );
 }
