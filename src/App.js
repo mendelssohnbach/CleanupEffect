@@ -2,6 +2,7 @@ import { ClickHandler } from './components/ClickHandler';
 import CounterState from './components/CounterState';
 import DisplayTitle from './components/DisplayTitle';
 import Greeting from './components/Greeting';
+import IncreaseValue from './components/IncreaseValue';
 import MapList from './components/MapList';
 import Picture from './components/Picture';
 import Role from './components/Role';
@@ -19,6 +20,7 @@ function App() {
       <ClickHandler />
       <DisplayTitle />
       <CounterState />
+      <IncreaseValue />
     </div>
   );
 }
