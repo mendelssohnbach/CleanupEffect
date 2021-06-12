@@ -1,4 +1,5 @@
 import { ClickHandler } from './components/ClickHandler';
+import DisplayTitle from './components/DisplayTitle';
 import Greeting from './components/Greeting';
 import MapList from './components/MapList';
 import Picture from './components/Picture';
@@ -15,6 +16,7 @@ function App() {
       </Role>
       <MapList />
       <ClickHandler />
+      <DisplayTitle />
     </div>
   );
 }
