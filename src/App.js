@@ -1,4 +1,5 @@
 import { ClickHandler } from './components/ClickHandler';
+import CounterState from './components/CounterState';
 import DisplayTitle from './components/DisplayTitle';
 import Greeting from './components/Greeting';
 import MapList from './components/MapList';
@@ -17,6 +18,7 @@ function App() {
       <MapList />
       <ClickHandler />
       <DisplayTitle />
+      <CounterState />
     </div>
   );
 }
